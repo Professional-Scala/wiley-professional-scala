@@ -69,6 +69,9 @@ class Planet extends Terraformable[Planet] {
   def terraform[P1 >: Planet, SpecialisedPlanet](implicit tfs: Seq[Terraformer[P1, SpecialisedPlanet]]): Planet = ???
 }
 
+// There are some nuances related to @inheritdoc. The following comments have been left
+// in place for the interested reader to review at leisure.
+
 // This is the second part of advanced tagging.
 ///**
 //  * @inheritdoc
