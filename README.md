@@ -3,7 +3,7 @@ ISBN: 978-1-119-26722-5
 
 TODO: Update to include all chapters.
 
-These code examples support chapters 5 and 8 of Professional Scala covering Maven and Scaladoc.
+This is a companion repository containing examples from Professional Scala by Wrox Press.
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@ Both chapters require
  - Maven 3.2.5 or later
  - JDK 8
 
-Ensure the `scala`, `scaladoc` and `mvn` commands are on the command path.
+Ensure the `scala`, `scaladoc`, `sbt` and `mvn` commands are on the command path.
 
 ### Required Hardware
 
@@ -23,11 +23,29 @@ Processor: Pentium 2 266 MHz or better
 
 RAM: 1GB or better
 
+## Installation
+
+Clone the repository.
+
 ## Structure
 
   TODO
 
-## Chapters 5 and 8 Structure
+| Directory  | Chapter |
+| ------------- | ------------- |
+| src/main/scala/com/professionalscala/ch2 | Chapter 2 - Functional Programming |
+| src/main/scala/com/professionalscala/ch3 | Chapter 3 - Concurrency |
+| chapter-5 | Chapter 5 - Maven |
+| src/main/scala/com/professionalscala/ch11 | Chapter 11 - Java Compatibility |
+| chapter-8 | Chapter 8 - Scaladoc |
+
+## Usage
+
+### Chapters 2, 3 and 11
+
+Run the examples using `sbt` on the  command line (sbt run  will do the trick).
+
+## Chapters 5 and 8
 
 These chapter use Maven instead of SBT. The Maven specific details are covered here.
 
@@ -46,11 +64,34 @@ The module layout follows standard Maven practice.
 
 Build the code with `mvn install`. Build the Scaladoc with `mvn site`.
 
-## Other Notes
-
 `misc-examples/` contains Scaladoc samples not listed in chapter 8.
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch:  `git checkout -b my-new-feature`
+3. Commit your changes:  `git commit -am 'Add some feature'`
+4. Push to the branch:  `git push origin my-new-feature`
+5. Submit a pull request.
 
 ## Contact the Authors
 
 For questions please visit the Wrox forum: http://p2p.wrox.com/book-professional-scala-804/
 
+## License
+
+    The MIT License (MIT)
+
+    Copyright (c) 2016 John Wiley & Sons, Inc. or related companies.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+    documentation files (the "Software"), to deal in the Software without restriction, including without limitation
+    the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and
+    to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+    TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
