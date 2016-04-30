@@ -33,6 +33,7 @@ Clone the repository.
 
 | Directory  | Chapter |
 | ------------- | ------------- |
+| src/main/scala/com/professionalscala/ch1 | Chapter 1 - Introduction |
 | src/main/scala/com/professionalscala/ch2 | Chapter 2 - Functional Programming |
 | src/main/scala/com/professionalscala/ch3 | Chapter 3 - Concurrency |
 | src/main/scala/com/wrox/professionalscala/ch03 | Chapter 3 - Scala and Java Collections |
@@ -46,7 +47,7 @@ Clone the repository.
 
 ## Usage
 
-### Chapters 2, 4, 7, 11 and some of 3
+### Chapters 1, 2, 4, 7, 11 and some of 3
 
 Run the examples using `sbt` on the  command line (sbt run  will do the trick).
 
