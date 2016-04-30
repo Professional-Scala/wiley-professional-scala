@@ -1,17 +1,16 @@
 # Code Examples for Professional Scala - Wrox
 ISBN: 978-1-119-26722-5
 
-TODO: Update to include all chapters.
-
-This is a companion repository containing examples from Professional Scala by Wrox Press.
+This is the companion source code repository containing examples covered in Professional Scala by Wrox Press.
 
 ## Prerequisites
 
 ### Required Software
 
-Both chapters require
+To run all the examples you will need the following software installed,
 
  - Scala 2.11.7 or later
+ - SBT 0.13.8 or later
  - Maven 3.2.5 or later
  - JDK 8
 
@@ -29,29 +28,27 @@ Clone the repository.
 
 ## Structure
 
-  TODO
-
 | Directory  | Chapter |
 | ------------- | ------------- |
-| src/main/scala/com/professionalscala/ch1 | Chapter 1 - Introduction |
-| src/main/scala/com/professionalscala/ch2 | Chapter 2 - Functional Programming |
-| src/main/scala/com/professionalscala/ch3 | Chapter 3 - Concurrency |
-| src/main/scala/com/wrox/professionalscala/ch03 | Chapter 3 - Scala and Java Collections |
-| chapter4_codesamples | Chapter 4 - SBT |
-| chapter-5 | Chapter 5 - Maven |
-| chapter7_codesamples | Chapter 7 - Testing |
-| chapter-8 | Chapter 8 - Scaladoc |
-| src/main/scala/com/wrox/professionalscala/ch09 | Chapter 9 - Type System |
-| src/main/scala/com/wrox/professionalscala/ch10 | Chapter 10 - Advanced Functional Programming  |
-| src/main/scala/com/professionalscala/ch11 | Chapter 11 - Java Compatibility |
+| Chapter 1 - Introduction | src/main/scala/com/professionalscala/ch1 |
+| Chapter 2 - Functional Programming | src/main/scala/com/professionalscala/ch2 |
+| Chapter 3 - Concurrency | src/main/scala/com/professionalscala/ch3 |
+| Chapter 3 - Scala and Java Collections | src/main/scala/com/wrox/professionalscala/ch03 |
+| Chapter 4 - SBT | chapter4_codesamples |
+| Chapter 5 - Maven | chapter-5 |
+| Chapter 7 - Testing | chapter7_codesamples |
+| Chapter 8 - Scaladoc | chapter-8 |
+| Chapter 9 - Type System | src/main/scala/com/wrox/professionalscala/ch09 |
+| Chapter 10 - Advanced Functional Programming | src/main/scala/com/wrox/professionalscala/ch10 |
+| Chapter 11 - Java Compatibility | src/main/scala/com/professionalscala/ch11 |
 
 ## Usage
 
-### Chapters 1, 2, 4, 7, 11 and some of 3
+### Chapters 1, 2, 4, 7, 11 and some of Chapter 3
 
 Run the examples using `sbt` on the  command line (sbt run  will do the trick).
 
-### Chapters 9, 10 and some of 3
+### Chapters 9, 10 and some of Chapter 3
 
 Launch sbt. Then from the sbt prompt launch the `runMain` command followed by the example you want to run. E.g.:
 
@@ -61,7 +58,7 @@ Launch sbt. Then from the sbt prompt launch the `runMain` command followed by th
 
 ## Chapters 5 and 8
 
-These chapter use Maven instead of SBT. The Maven specific details are covered here.
+These chapters use Maven instead of SBT.
 
 This project contains two Maven modules corresponding to chapters 5 and 8
 
@@ -82,7 +79,7 @@ Build the code with `mvn install`. Build the Scaladoc with `mvn site`.
 
 ## Contributing
 
-1. Fork it!
+1. Fork the respository in GitHub.
 2. Create your feature branch:  `git checkout -b my-new-feature`
 3. Commit your changes:  `git commit -am 'Add some feature'`
 4. Push to the branch:  `git push origin my-new-feature`
@@ -90,7 +87,7 @@ Build the code with `mvn install`. Build the Scaladoc with `mvn site`.
 
 ## Contact the Authors
 
-For questions please visit the Wrox forum: http://p2p.wrox.com/book-professional-scala-804/
+For questions please visit the Wrox forum at http://p2p.wrox.com/book-professional-scala-804/
 
 ## License
 
