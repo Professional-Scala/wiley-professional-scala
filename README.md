@@ -36,7 +36,9 @@ Clone the repository.
 | src/main/scala/com/professionalscala/ch2 | Chapter 2 - Functional Programming |
 | src/main/scala/com/professionalscala/ch3 | Chapter 3 - Concurrency |
 | src/main/scala/com/wrox/professionalscala/ch03 | Chapter 3 - Scala and Java Collections |
+| chapter4_codesamples | Chapter 4 - SBT |
 | chapter-5 | Chapter 5 - Maven |
+| chapter7_codesamples | Chapter 7 - Testing |
 | chapter-8 | Chapter 8 - Scaladoc |
 | src/main/scala/com/wrox/professionalscala/ch09 | Chapter 9 - Type System |
 | src/main/scala/com/wrox/professionalscala/ch10 | Chapter 10 - Advanced Functional Programming  |
@@ -44,7 +46,7 @@ Clone the repository.
 
 ## Usage
 
-### Chapters 2, 11 and some of 3
+### Chapters 2, 4, 7, 11 and some of 3
 
 Run the examples using `sbt` on the  command line (sbt run  will do the trick).
 
