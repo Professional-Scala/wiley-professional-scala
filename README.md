@@ -35,15 +35,26 @@ Clone the repository.
 | ------------- | ------------- |
 | src/main/scala/com/professionalscala/ch2 | Chapter 2 - Functional Programming |
 | src/main/scala/com/professionalscala/ch3 | Chapter 3 - Concurrency |
+| src/main/scala/com/wrox/professionalscala/ch03 | Chapter 3 - Scala and Java Collections |
 | chapter-5 | Chapter 5 - Maven |
-| src/main/scala/com/professionalscala/ch11 | Chapter 11 - Java Compatibility |
 | chapter-8 | Chapter 8 - Scaladoc |
+| src/main/scala/com/wrox/professionalscala/ch09 | Chapter 9 - Type System |
+| src/main/scala/com/wrox/professionalscala/ch10 | Chapter 10 - Advanced Functional Programming  |
+| src/main/scala/com/professionalscala/ch11 | Chapter 11 - Java Compatibility |
 
 ## Usage
 
-### Chapters 2, 3 and 11
+### Chapters 2, 11 and some of 3
 
 Run the examples using `sbt` on the  command line (sbt run  will do the trick).
+
+### Chapters 9, 10 and some of 3
+
+Launch sbt. Then from the sbt prompt launch the `runMain` command followed by the example you want to run. E.g.:
+
+```scala
+> runMain com.wrox.professionalscala.ch09.TypeClassExample
+```
 
 ## Chapters 5 and 8
 
