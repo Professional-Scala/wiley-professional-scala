@@ -13,7 +13,7 @@
     <description>
         Professional Scala Code Examples for Chapter 5 - Maven &amp; Chapter 8 - Scala
     </description>
-    <url>https://github.com/janekdb/wiley-professional-scala</url>
+    <url>https://github.com/Professional-Scala/wiley-professional-scala</url>
 
     <inceptionYear>2015</inceptionYear>
 
@@ -38,9 +38,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:janekdb/wiley-professional-scala.git</connection>
-        <developerConnection>scm:git:git@github.com:janekdb/wiley-professional-scala.git</developerConnection>
-        <url>git@github.com:janekdb/wiley-professional-scala.git</url>
+        <connection>scm:git:git@github.com:Professional-Scala/wiley-professional-scala.git</connection>
+        <developerConnection>scm:git:git@github.com:Professional-Scala/wiley-professional-scala.git</developerConnection>
+        <url>git@github.com:Professional-Scala/wiley-professional-scala.git</url>
     </scm>
 
     <modules>
