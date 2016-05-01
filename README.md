@@ -52,7 +52,7 @@ you can use the `runMain` command. E.g.:
 > runMain com.wrox.professionalscala.ch09.TypeClassExample
 ```
 
-## Chapters 5 and 8
+### Chapters 5 and 8
 
 These chapters use Maven instead of SBT.
 
