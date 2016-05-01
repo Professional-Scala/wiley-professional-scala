@@ -45,12 +45,7 @@ Clone the repository.
 
 ### Chapters 1, 2, 3, 4, 7, 8, 9, 10 and 11
 
-Run the examples using `sbt` on the  command line (sbt run  will do the trick). Alternatively, from the sbt prompt,
-you can use the `runMain` command. E.g.:
-
-```scala
-> runMain com.wrox.professionalscala.ch09.TypeClassExample
-```
+Run the examples using `sbt` on the  command line (sbt run  will do the trick).
 
 ### Chapters 5 and 8
 
