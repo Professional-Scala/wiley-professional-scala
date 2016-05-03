@@ -30,31 +30,22 @@ Clone the repository.
 
 | Directory  | Chapter |
 | ------------- | ------------- |
-| Chapter 1 - Introduction | src/main/scala/com/professionalscala/ch1 |
-| Chapter 2 - Functional Programming | src/main/scala/com/professionalscala/ch2 |
-| Chapter 3 - Concurrency | src/main/scala/com/professionalscala/ch3 |
-| Chapter 3 - Scala and Java Collections | src/main/scala/com/wrox/professionalscala/ch03 |
+| Chapter 1 - Introduction | src/main/scala/com/wrox/professionalscala/ch01 |
+| Chapter 2 - Functional Programming | src/main/scala/com/wrox/professionalscala/ch02 |
+| Chapter 3 - Java Compatibility | src/main/scala/com/wrox/professionalscala/ch03 |
 | Chapter 4 - SBT | src/main/scala/com/wrox/professionalscala/ch04 |
 | Chapter 5 - Maven | chapter-5 |
 | Chapter 7 - Testing | src/main/scala/com/wrox/professionalscala/ch07 |
 | Chapter 8 - Scaladoc | chapter-8 |
 | Chapter 9 - Type System | src/main/scala/com/wrox/professionalscala/ch09 |
 | Chapter 10 - Advanced Functional Programming | src/main/scala/com/wrox/professionalscala/ch10 |
-| Chapter 11 - Java Compatibility | src/main/scala/com/professionalscala/ch11 |
+| Chapter 11 - Java Compatibility | src/main/scala/com/wrox/professionalscala/ch11 |
 
 ## Usage
 
-### Chapters 1, 2, 4, 7, 11 and some of Chapter 3
+### Chapters 1, 2, 3, 4, 7, 8, 9, 10 and 11
 
 Run the examples using `sbt` on the  command line (sbt run  will do the trick).
-
-### Chapters 9, 10 and some of Chapter 3
-
-Launch sbt. Then from the sbt prompt launch the `runMain` command followed by the example you want to run. E.g.:
-
-```scala
-> runMain com.wrox.professionalscala.ch09.TypeClassExample
-```
 
 ### Chapters 5 and 8
 
